@@ -71,7 +71,8 @@ Adding Support for new Kernels
 In order to add support for new kernels, you need to update the
  ```winmonitor_gen.c``` file. This information is generated from
 the ```exe``` and ```pdb``` files of the desired Windows kernel using the
- ```gendriver.py``` script.
+ ```gendriver.py``` script. The Windows kernel ```exe``` can be extracted
+ directly from an ISO using the ```extract_kernels.py``` script.
 
 - Download the MSYS-GIT SDK from ```https://github.com/git-for-windows/build-extra/releases```
 
